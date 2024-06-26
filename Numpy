@@ -1,0 +1,110 @@
+from typing import List, Tuple, Union
+
+class Array:
+    def _init_(self, data: Union[List[int], List[List[int]]]):
+        self.data = data
+        if all(isinstance(i, list) for i in data):
+            self.shape = (len(data), len(data[0]))
+        else:
+            self.shape = (len(data),)
+
+    def _add_(self, other: Union[int, 'Array']) -> 'Array':
+        if isinstance(other, Array):
+            if self.shape != other.shape:
+                raise ValueError("Shapes must be the same for element-wise operations.")
+            if len(self.shape) == 1:
+                return Array([self.data[i] + other.data[i] for i in range(len(self.data))])
+            else:
+                return Array([[self.data[i][j] + other.data[i][j] for j in range(self.shape[1])] for i in range(self.shape[0])])
+        else:
+            if len(self.shape) == 1:
+                return Array([x + other for x in self.data])
+            else:
+                return Array([[x + other for x in row] for row in self.data])
+
+    def _sub_(self, other: Union[int, 'Array']) -> 'Array':
+        if isinstance(other, Array):
+            if self.shape != other.shape:
+                raise ValueError("Shapes must be the same for element-wise operations.")
+            if len(self.shape) == 1:
+                return Array([self.data[i] - other.data[i] for i in range(len(self.data))])
+            else:
+                return Array([[self.data[i][j] - other.data[i][j] for j in range(self.shape[1])] for i in range(self.shape[0])])
+        else:
+            if len(self.shape) == 1:
+                return Array([x - other for x in self.data])
+            else:
+                return Array([[x - other for x in row] for row in self.data])
+
+    def _mul_(self, other: Union[int, 'Array']) -> 'Array':
+        if isinstance(other, Array):
+            if self.shape != other.shape:
+                raise ValueError("Shapes must be the same for element-wise operations.")
+            if len(self.shape) == 1:
+                return Array([self.data[i] * other.data[i] for i in range(len(self.data))])
+            else:
+                return Array([[self.data[i][j] * other.data[i][j] for j in range(self.shape[1])] for i in range(self.shape[0])])
+        else:
+            if len(self.shape) == 1:
+                return Array([x * other for x in self.data])
+            else:
+                return Array([[x * other for x in row] for row in self.data])
+
+    def _truediv_(self, other: Union[int, 'Array']) -> 'Array':
+        if isinstance(other, Array):
+            if self.shape != other.shape:
+                raise ValueError("Shapes must be the same for element-wise operations.")
+            if len(self.shape) == 1:
+                return Array([self.data[i] / other.data[i] for i in range(len(self.data))])
+            else:
+                return Array([[self.data[i][j] / other.data[i][j] for j in range(self.shape[1])] for i in range(self.shape[0])])
+        else:
+            if len(self.shape) == 1:
+                return Array([x / other for x in self.data])
+            else:
+                return Array([[x / other for x in row] for row in self.data])
+
+    def _matmul_(self, other: 'Array') -> int:
+        if len(self.shape) != 1 or len(other.shape) != 1:
+            raise ValueError("Matrix multiplication is only supported for 1D arrays.")
+        if self.shape[0] != other.shape[0]:
+            raise ValueError("Shapes must be the same for matrix multiplication.")
+        return sum(self.data[i] * other.data[i] for i in range(len(self.data)))
+
+    def _contains_(self, item: int) -> bool:
+        if len(self.shape) == 1:
+            return item in self.data
+        else:
+            return any(item in row for row in self.data)
+
+    def _getitem_(self, index: Union[int, Tuple[int, int]]) -> Union[int, List[int]]:
+        if isinstance(index, int):
+            return self.data[index]
+        elif isinstance(index, tuple):
+            if len(self.shape) == 1:
+                raise IndexError("Too many indices for 1D array")
+            return self.data[index[0]][index[1]]
+        else:
+            raise TypeError("Invalid index type")
+
+    def _len_(self) -> int:
+        return self.shape[0]
+
+    def _repr_(self) -> str:
+        return f"Array({self.data})"
+
+# Examples d'utilisation
+x = Array([1, 2, 3])
+y = Array([4, 5, 6])
+print(x + y)  # Array([5, 7, 9])
+print(x - y)  # Array([-3, -3, -3])
+print(x * 2)  # Array([2, 4, 6])
+print(x @ y)  # 32
+
+z = Array([[1, 2], [3, 4]])
+w = Array([[5, 6], [7, 8]])
+print(z + w)  # Array([[6, 8], [10, 12]])
+print(z * 2)  # Array([[2, 4], [6, 8]])
+print(2 in x)  # True
+print(z[1, 1])  # 4
+print(len(z))  # 2
