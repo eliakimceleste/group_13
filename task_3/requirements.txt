@@ -1,3 +1,0 @@
-thinker
-gradio_client
-deep-translator
