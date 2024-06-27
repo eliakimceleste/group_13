@@ -52,10 +52,27 @@ pip install -r requirements.txt
 
 ## Usage
 ### Tâche1
+Accéder au dossier avec la commande  ``` cd task_1```
+ Exécutez le script  avec la commande :
 - Windows
-   Exécutez le script du jeu avec la commande :
  ```
-python minimax.py
+python numpy.py
+ ```
+- Linux
+ ```
+python3 numpy.py
+ ```
+
+### Tâche3
+Accéder au dossier avec la commande  ``` cd task_3```
+ Exécutez le script  avec la commande :
+- Windows
+ ```
+python app.py
+ ```
+- Linux
+ ```
+python3 app.py
  ```
 
 ## Tâche3
