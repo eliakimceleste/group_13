@@ -47,6 +47,9 @@ Le projet est un devoir pour valider les compétences acquises lors du cours de 
 ## Usage
    ### Tâche1
    Accéder au dossier avec la commande  ``` cd task_1```
+       ```
+         python app.py
+       ```
     Exécutez le script  avec la commande :
    - Windows
     ```
