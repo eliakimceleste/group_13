@@ -6,7 +6,7 @@ Le projet est un devoir pour valider les compétences acquises lors du cours de 
 - **pip** installé (devrait être inclus avec Python 3.x)
 
 ## Configuration de l'environnement virtuel et installation des dépendances
-### Windows
+
 1. Clonez le référentiel sur votre ordinateur local
 ```
 git clone https://github.com/eliakimceleste/group_13.git
@@ -16,32 +16,23 @@ git clone https://github.com/eliakimceleste/group_13.git
  cd group_13
    ```
 3. Créer un environnement virtuel
+   ### Windows
 ```
 python -m venv env
+ ```
+   ### Linux
+```
+python3 -m venv env
  ```
 4. Activer l'environnement virtuel
 ```
 .\env\Scripts\activate
  ```
-5. Installer les packages à partir de requirements.txt
- ```
-pip install -r requirements.txt
- ```
-
-### Linux
-1. Clonez le référentiel sur votre ordinateur local
+  ### Windows
 ```
-git clone https://github.com/eliakimceleste/group_13.git
-   ```
-2. Accéder au dossier du projet
+.\env\Scripts\activate
  ```
- cd group_13
-   ```
-3. Créer un environnement virtuel
-```
-python3 -m venv env
- ```
-4. Activer l'environnement virtuel
+   ### Linux
 ```
 source env/bin/activate
  ```
@@ -49,6 +40,7 @@ source env/bin/activate
  ```
 pip install -r requirements.txt
  ```
+
 
 ## Usage
 ### Tâche1
