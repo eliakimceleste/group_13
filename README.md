@@ -47,9 +47,9 @@ Le projet est un devoir pour valider les compétences acquises lors du cours de 
 ## Usage
    ### Tâche1
    Accéder au dossier avec la commande  
-   ```
-   cd task_1
-```
+      ```
+      cd task_1
+      ```
    
    Exécutez le script  avec la commande :
    - Windows
@@ -63,9 +63,9 @@ Le projet est un devoir pour valider les compétences acquises lors du cours de 
    
    ### Tâche3
    Accéder au dossier avec la commande  
-   ```
+      ```
       cd task_3
-   ```
+      ```
 
    Exécutez le script  avec la commande :
    - Windows
