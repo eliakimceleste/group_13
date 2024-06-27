@@ -117,7 +117,7 @@ titl = tk.Label(ffrRight, text=input.get())
 titl.pack(pady=50)
 
 # Charger le GIF du spinner
-spinner_gif = Image.open("task_3/loading.gif")
+spinner_gif = Image.open("./loading.gif")
 spinner_frames = [ImageTk.PhotoImage(frame.copy().resize((100, 100), Image.Resampling.LANCZOS)) for frame in ImageSequence.Iterator(spinner_gif)]
 
 # Créer un label pour afficher le texte de chargement
