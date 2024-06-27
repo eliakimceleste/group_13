@@ -48,8 +48,8 @@ Le projet est un devoir pour valider les compétences acquises lors du cours de 
    ### Tâche1
    Accéder au dossier avec la commande  
       ```
-      cd task_1
-         ```
+    cd group_13
+      ```
    
    Exécutez le script  avec la commande :
    - Windows
