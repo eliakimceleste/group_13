@@ -1,4 +1,4 @@
-# Rapport du groupe 13
+# Groupe 13: Projet de **Python avancé et R**
 Le projet est un devoir pour valider les compétences acquises lors du cours de __Python avancé et R__. Ce projet est divisé en trois tâches distinctes, chacun bordant des aspects du cours.
 
 ## Prérequis
@@ -70,7 +70,10 @@ cd task_2
 
    Exécutez le script  avec la commande :
   ```
-Rscript <votre_script>.R
+python hist.py
+Rscript hist.R
+python scatter.py
+Rscript scatter.R
 ```
    
    ### Tâche3
@@ -88,6 +91,10 @@ cd task_3
         ```
       python3 app.py
         ```
+
+## Rapport
+Voir ci-dessous le fihier vers le rapport
+
 
 ## Tâche3
 Nous avons créeé un interface utilisateur à l'aide du module ``` tkinter ``` de python contenant une **zone de texte** pour saisir la description d'une image à générer, un **bouton** pour générer l'image, une **zone d'affichage** pour montrer l'image générée et un **spinner(indicateur de chargement)** qui apparaît pendant la génération de l'image.
