@@ -62,7 +62,7 @@ Le projet est un devoir pour valider les compétences acquises lors du cours de 
         ```
    
    ### Tâche3
-   Accéder au dossier avec la commande  
+      Accéder au dossier avec la commande  
         ```
       cghty
       ```
