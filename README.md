@@ -3,9 +3,10 @@ Le projet est un devoir pour valider les compétences acquises lors du cours de 
 
 ## Prérequis
 - **Python 3.x** installé sur votre machine
-- **pip** installé devrait être inclus avec Python 3.x
+- **pip** installé (devrait être inclus avec Python 3.x)
 
-## Installation
+## Configuration de l'environnement virtuel et installation des dépendances
+### Windows
 1. Clonez le référentiel sur votre ordinateur local
    ```
    git clone https://github.com/eliakimceleste/group_13.git
@@ -14,18 +15,44 @@ Le projet est un devoir pour valider les compétences acquises lors du cours de 
 	 ```
    cd group_13
    ```
-3. Assurez-vous d'avoir installer __python__ sur votre ordinateur
-## Usage
 
-4. Créer un environnement virtuel pour y installer toutes dépendances
-    ```
-python -m venv 
+3. Créer un environnement virtuel
+```
+python -m venv env
  ```
-  
-Exécutez le script du jeu avec la commande :
+4. Activer l'environnement virtuel
+```
+.\env\Scripts\activate
+
  ```
-python minimax.py
+5. Installer les packages à partir de requirements.txt
  ```
+pip install -r requirements.txt
+ ```
+### Linux
+1. Clonez le référentiel sur votre ordinateur local
+   ```
+   git clone https://github.com/eliakimceleste/group_13.git
+   ```
+2. Accéder au dossier du projet
+	 ```
+   cd group_13
+   ```
+
+3. Créer un environnement virtuel
+```
+python -m venv env
+ ```
+4. Activer l'environnement virtuel
+```
+.\env\Scripts\activate
+
+ ```
+5. Installer les packages à partir de requirements.txt
+ ```
+pip install -r requirements.txt
+ ```
+
 
 
 ## Tâche3
