@@ -46,10 +46,12 @@ Le projet est un devoir pour valider les compétences acquises lors du cours de 
 
 ## Usage
    ### Tâche1
-   Accéder au dossier avec la commande  ``` cd task_1```
-        ```
-      cd task_1
-       ```
+   Accéder au dossier avec la commande  
+    ```
+      git status
+      git add
+      git commit
+      ```
     Exécutez le script  avec la commande :
    - Windows
        ```
