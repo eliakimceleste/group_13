@@ -47,11 +47,10 @@ Le projet est un devoir pour valider les compétences acquises lors du cours de 
 ## Usage
    ### Tâche1
    Accéder au dossier avec la commande  
-    ```
-      git status
-      git add
-      git commit
-      ```
+     - Windows
+       ```
+      python numpy.py
+       ```
     Exécutez le script  avec la commande :
    - Windows
        ```
