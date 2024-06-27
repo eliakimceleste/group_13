@@ -8,12 +8,12 @@ Le projet est un devoir pour valider les compétences acquises lors du cours de 
 ## Configuration de l'environnement virtuel et installation des dépendances
 ### Windows
 1. Clonez le référentiel sur votre ordinateur local
-   ```
-   git clone https://github.com/eliakimceleste/group_13.git
+```
+git clone https://github.com/eliakimceleste/group_13.git
    ```
 2. Accéder au dossier du projet
-	 ```
-   cd group_13
+ ```
+ cd group_13
    ```
 3. Créer un environnement virtuel
 ```
