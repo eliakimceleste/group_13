@@ -47,11 +47,11 @@ Le projet est un devoir pour valider les compétences acquises lors du cours de 
 ## Usage
    ### Tâche1
    Accéder au dossier avec la commande  
-     - Windows
-       ```
-      python numpy.py
-       ```
-    Exécutez le script  avec la commande :
+   ```
+ekiie
+```
+   
+   Exécutez le script  avec la commande :
    - Windows
        ```
       python numpy.py
