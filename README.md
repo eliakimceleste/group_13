@@ -16,26 +16,26 @@ git clone https://github.com/eliakimceleste/group_13.git
  cd group_13
    ```
 3. Créer un environnement virtuel
-   ### Windows
-```
-python -m venv env
- ```
-   ### Linux
-```
-python3 -m venv env
- ```
+   ##### Windows
+   ```
+   python -m venv env
+    ```
+   ##### Linux
+   ```
+   python3 -m venv env
+    ```
 4. Activer l'environnement virtuel
 ```
 .\env\Scripts\activate
  ```
-  ### Windows
-```
-.\env\Scripts\activate
- ```
-   ### Linux
-```
-source env/bin/activate
- ```
+   ##### Windows
+   ```
+   .\env\Scripts\activate
+    ```
+   ##### Linux
+   ```
+   source env/bin/activate
+    ```
 5. Installer les packages à partir de requirements.txt
  ```
 pip install -r requirements.txt
