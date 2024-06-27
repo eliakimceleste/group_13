@@ -47,23 +47,23 @@ Le projet est un devoir pour valider les compétences acquises lors du cours de 
 ## Usage
    ### Tâche1
    Accéder au dossier avec la commande  ``` cd task_1```
-       ```
-         python app.py
+        ```
+      cd task_1
        ```
     Exécutez le script  avec la commande :
    - Windows
-    ```
-   python numpy.py
-    ```
+       ```
+      python numpy.py
+       ```
    - Linux
-    ```
-   python3 numpy.py
-    ```
+        ```
+      python3 numpy.py
+        ```
    
    ### Tâche3
    Accéder au dossier avec la commande  
       ```
-      cd task_3
+         cd task_3
       ```
     Exécutez le script  avec la commande :
    - Windows
