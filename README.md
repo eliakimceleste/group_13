@@ -4,7 +4,7 @@ Le projet est un devoir pour valider les compétences acquises lors du cours de 
 ## Prérequis
 - **Python 3.x** installé sur votre machine
 - **pip** installé (devrait être inclus avec Python 3.x)
-- R et le package `ggplot2` si vous voulez exécuter le code R
+- **R** et le package `ggplot2` si vous voulez exécuter le code R
 
 ## Configuration de l'environnement virtuel et installation des dépendances
 
@@ -61,6 +61,17 @@ cd task_1
         ```
       python3 numpy.py
         ```
+   
+   ### Tâche2
+   Accéder au dossier avec la commande  
+  ```
+cd task_2
+```
+
+   Exécutez le script  avec la commande :
+  ```
+Rscript votre_script.R
+```
    
    ### Tâche3
    Accéder au dossier avec la commande  
