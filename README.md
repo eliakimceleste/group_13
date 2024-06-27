@@ -15,7 +15,6 @@ Le projet est un devoir pour valider les compétences acquises lors du cours de 
 	 ```
    cd group_13
    ```
-
 3. Créer un environnement virtuel
 ```
 python -m venv env
@@ -23,12 +22,12 @@ python -m venv env
 4. Activer l'environnement virtuel
 ```
 .\env\Scripts\activate
-
  ```
 5. Installer les packages à partir de requirements.txt
  ```
 pip install -r requirements.txt
  ```
+
 ### Linux
 1. Clonez le référentiel sur votre ordinateur local
    ```
@@ -38,7 +37,6 @@ pip install -r requirements.txt
 	 ```
    cd group_13
    ```
-
 3. Créer un environnement virtuel
 ```
 python -m venv env
@@ -46,7 +44,6 @@ python -m venv env
 4. Activer l'environnement virtuel
 ```
 .\env\Scripts\activate
-
  ```
 5. Installer les packages à partir de requirements.txt
  ```
