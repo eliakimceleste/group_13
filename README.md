@@ -4,6 +4,7 @@ Le projet est un devoir pour valider les compétences acquises lors du cours de 
 ## Prérequis
 - **Python 3.x** installé sur votre machine
 - **pip** installé (devrait être inclus avec Python 3.x)
+- R et le package `ggplot2` si vous voulez exécuter le code R
 
 ## Configuration de l'environnement virtuel et installation des dépendances
 
