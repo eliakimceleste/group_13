@@ -53,7 +53,7 @@ pip install -r requirements.txt
 ## Usage
 ### Tâche1
 - Windows
-Exécutez le script du jeu avec la commande :
+   Exécutez le script du jeu avec la commande :
  ```
 python minimax.py
  ```
