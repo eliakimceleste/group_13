@@ -8,14 +8,17 @@ Le projet est un devoir pour valider les compétences acquises lors du cours de 
 ## Configuration de l'environnement virtuel et installation des dépendances
 
 1. Clonez le référentiel sur votre ordinateur local
+
    ```
    git clone https://github.com/eliakimceleste/group_13.git
       ```
 2. Accéder au dossier du projet
+
     ```
     cd group_13
       ```
 3. Créer un environnement virtuel
+
    ##### Windows
    ```
    python -m venv env
@@ -25,9 +28,7 @@ Le projet est un devoir pour valider les compétences acquises lors du cours de 
    python3 -m venv env
     ```
 4. Activer l'environnement virtuel
-   ```
-   .\env\Scripts\activate
-   ```
+  
    ##### Windows
       ```
    .\env\Scripts\activate
@@ -37,6 +38,7 @@ Le projet est un devoir pour valider les compétences acquises lors du cours de 
    source env/bin/activate
     ```
 5. Installer les packages à partir de requirements.txt
+
     ```
    pip install -r requirements.txt
     ```
