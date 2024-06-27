@@ -48,7 +48,7 @@ Le projet est un devoir pour valider les compétences acquises lors du cours de 
    ### Tâche1
    Accéder au dossier avec la commande  
    ```
-ekiie
+   cd task_1
 ```
    
    Exécutez le script  avec la commande :
@@ -63,9 +63,10 @@ ekiie
    
    ### Tâche3
    Accéder au dossier avec la commande  
-      ```
-         cd task_3
-      ```
+   ```
+   cd task_3
+```
+
     Exécutez le script  avec la commande :
    - Windows
        ```
