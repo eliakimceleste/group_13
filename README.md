@@ -1,5 +1,5 @@
 # Groupe 13: Projet de **Python avancé et R**
-Le projet est un devoir pour valider les compétences acquises lors du cours de __Python avancé et R__. Ce projet est divisé en trois tâches distinctes, chacun bordant des aspects du cours.
+Le projet est un devoir pour valider les compétences acquises lors du cours de __Python avancé et R__. Ce projet est divisé en trois tâches distinctes, chacun abordant des aspects du cours.
 
 ## Prérequis
 - **Python 3.x** installé sur votre machine
@@ -93,7 +93,7 @@ cd task_3
         ```
 
 ## Rapport
-Voir ci-dessous le fihier vers le rapport
+Voir ci-dessous le fichier vers le rapport
 
 
 ## Tâche3
