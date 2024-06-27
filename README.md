@@ -70,7 +70,7 @@ cd task_2
 
    Exécutez le script  avec la commande :
   ```
-Rscript votre_script.R
+Rscript <votre_script>.R
 ```
    
    ### Tâche3
