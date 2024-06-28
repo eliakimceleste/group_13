@@ -97,8 +97,4 @@ cd task_3
 Voir ci-dessous le fichier vers le rapport
 
 
-## Tâche3
-Nous avons créeé un interface utilisateur à l'aide du module ``` tkinter ``` de python contenant une **zone de texte** pour saisir la description d'une image à générer, un **bouton** pour générer l'image, une **zone d'affichage** pour montrer l'image générée et un **spinner(indicateur de chargement)** qui apparaît pendant la génération de l'image.
-
-Nous avons utilisé le modèle tiny ```tiny-stable-diffusion-torch``` de **StableDiffusion** qui est disponible sur **HuggingFace**.
 
