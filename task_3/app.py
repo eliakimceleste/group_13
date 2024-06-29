@@ -16,7 +16,7 @@ pipe = StableDiffusionPipeline.from_pretrained(model_name, torch_dtype=torch.flo
 
 def generate_image():
     image_label.pack_forget()
-    spinner_label.pack(pady=30)
+    spinner_label.pack(pady=50)
     prompt = input.get()
     if prompt == '':
         messagebox.showwarning("Entrée manquante", "Veuillez entrer une description.")
@@ -49,6 +49,7 @@ def generate_image():
             # spinner.stop()
             # spinner.pack_forget()
             spinner_label.pack_forget()
+            loading_label.pack_forget()
 
     # Démarrer un nouveau thread pour charger l'image
     thread = threading.Thread(target=load_image)
